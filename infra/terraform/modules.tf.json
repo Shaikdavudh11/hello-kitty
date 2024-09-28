@@ -7,12 +7,12 @@
       "create_function_url": true,
       "description": null,
       "environment_variables": {
-        "IMAGES_BUCKET": "shaik-davudh-15"
+        "IMAGES_BUCKET": "davudh-15"
       },
       "event_source_arn": null,
       "event_source_mapping": [],
       "filename": null,
-      "function_name": "hello-kitty-function-shaik-15",
+      "function_name": "hello-kitty-function-davudh-15",
       "handler": "main.lambda_handler",
       "log_format": null,
       "log_group_name": "${module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name}",
@@ -32,7 +32,7 @@
     },
     "appcd_551e1d2b-88ec-5406-87cf-c51521bbe894": {
       "block_public_access": true,
-      "bucket_name": "shaik-davudh-15",
+      "bucket_name": "davudh-15",
       "bucket_policy": "",
       "enable_versioning": true,
       "enable_website_configuration": false,
@@ -59,7 +59,7 @@
       "description": null,
       "force_detach_policies": true,
       "inline_policy": [],
-      "name": "hello-kitty-role-function-shaik-davudh15",
+      "name": "hello-kitty-role-function-davudh15",
       "source": "./modules/aws_iam_role",
       "tags": {
         "appstack": "hello-kitty-shaik",
