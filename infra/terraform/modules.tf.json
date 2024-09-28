@@ -46,7 +46,7 @@
       "website_index_document": "index.html"
     },
     "appcd_86ec452a-770a-59bf-87dd-67ed883e25e5": {
-      "name": "/aws/lambda/hello-kitty-function",
+      "name": "/aws/lambda/hello-kitty-function-00091112",
       "retention_in_days": 7,
       "source": "./modules/aws_cloudwatch_log_group",
       "tags": {
