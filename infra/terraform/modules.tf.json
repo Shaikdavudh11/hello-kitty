@@ -59,7 +59,7 @@
       "description": null,
       "force_detach_policies": true,
       "inline_policy": [],
-      "name": "hello-kitty-role-function-shaik-15",
+      "name": "hello-kitty-role-function-shaik-davudh15",
       "source": "./modules/aws_iam_role",
       "tags": {
         "appstack": "hello-kitty-shaik",
