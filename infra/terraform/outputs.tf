@@ -1,4 +1,28 @@
 
+output "aws_s3_shaik_davudh_15_bucket_website_endpoint" {
+  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_website_endpoint
+  sensitive = false
+}
+
+
+output "aws_s3_shaik_davudh_15_kms_arn" {
+  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.kms_arn
+  sensitive = false
+}
+
+
+output "aws_s3_shaik_davudh_15_arn" {
+  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.arn
+  sensitive = false
+}
+
+
+output "aws_s3_shaik_davudh_15_bucket_name" {
+  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_name
+  sensitive = false
+}
+
+
 output "aws_lambda_hello_kitty_function_shaik_15_function_arn" {
   value = module.appcd_00a20b0a-2ec0-5bdc-a08d-65a85dc81d5b.function_arn
   sensitive = false
@@ -23,13 +47,13 @@ output "aws_lambda_hello_kitty_function_shaik_15_invoke_arn" {
 }
 
 
-output "aws_iam_role_hello_kitty_role_function_shaik_15_arn" {
+output "aws_iam_role_hello_kitty_role_function_shaik_davudh15_arn" {
   value = module.appcd_b71fd16c-797e-5a95-8e1b-ab22f1e34f43.arn
   sensitive = false
 }
 
 
-output "aws_iam_role_hello_kitty_role_function_shaik_15_name" {
+output "aws_iam_role_hello_kitty_role_function_shaik_davudh15_name" {
   value = module.appcd_b71fd16c-797e-5a95-8e1b-ab22f1e34f43.name
   sensitive = false
 }
@@ -43,29 +67,5 @@ output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_arn" {
 
 output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_name" {
   value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name
-  sensitive = false
-}
-
-
-output "aws_s3_shaik_davudh_15_arn" {
-  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.arn
-  sensitive = false
-}
-
-
-output "aws_s3_shaik_davudh_15_bucket_name" {
-  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_name
-  sensitive = false
-}
-
-
-output "aws_s3_shaik_davudh_15_bucket_website_endpoint" {
-  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_website_endpoint
-  sensitive = false
-}
-
-
-output "aws_s3_shaik_davudh_15_kms_arn" {
-  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.kms_arn
   sensitive = false
 }
